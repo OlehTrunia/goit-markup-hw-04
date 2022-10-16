@@ -124,10 +124,11 @@ color: var(--referent-text-color);
 .referents-item.link{
 padding: 32px 0;
 display: block;
-justify-content: center;
+/* justify-content: center; */
 align-items: center;}
-
-
+.header a.link{
+    display: flex;
+}
 /*-------------------------------------HERO---------------------------*/
 .hero{
 background-image: linear-gradient(to right, rgba(47, 48, 58, 0.4), 
