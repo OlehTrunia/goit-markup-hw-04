@@ -87,8 +87,11 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);    
-padding: 32px 0;
-display: inline-block;
+
+}
+.header-item.link a.link{
+ padding: 32px 0;
+display: inline-block;   
 }
 nav{
 margin-left: 93px;
@@ -122,14 +125,16 @@ line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--referent-text-color);
 }  
-.referents-item.link{
+.referents-item.link a.link{
 padding: 32px 0;
 display: block;
-/* justify-content: center; */
-align-items: center;
+
+
 }
 .header a.link{
 display: flex;
+align-items: center;
+justify-content: center;
 }
 /*-------------------------------------HERO---------------------------*/
 .hero{
@@ -423,19 +428,19 @@ margin-bottom: 50px;
 .navigation-item:not(:last-child){
 margin-right: 8px;
 }
-.superhero-item{
-width: 370px;
-}
-.superhero-link:hover{
-border: 1px solid #EEEEEE;
-box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
-0px 4px 4px rgba(0, 0, 0, 0.06), 
-1px 4px 6px rgba(0, 0, 0, 0.16);
-}
 .superhero-list{
 display: flex;
 flex-wrap: wrap;
 gap: 30px;
+}
+.superhero-item{
+width: 370px;
+}
+.superhero-item:hover{
+border: 1px solid #EEEEEE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
+0px 4px 4px rgba(0, 0, 0, 0.06), 
+1px 4px 6px rgba(0, 0, 0, 0.16);
 }
 .superhero-title {
 font-weight: 700;
