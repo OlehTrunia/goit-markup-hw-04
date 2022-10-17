@@ -339,11 +339,13 @@ border-radius: 4px;
 width: 170px;
 height: 92px;
 }
-.clients-link:hover,
-.clients-link:focus{
+.clients-link:hover{
 fill: var(--accent-color);  
 cursor: pointer;
 }   
+.clients-link:focus{
+    fill: var(--accent-color);  
+}
 /*----------------------FOOTER------------------------------*/
 .footer .container{
 display: flex;
@@ -424,7 +426,7 @@ margin-right: 8px;
 .superhero-item{
 width: 370px;
 }
-.superhero-item:hover{
+.superhero-link:hover{
 border: 1px solid #EEEEEE;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
 0px 4px 4px rgba(0, 0, 0, 0.06), 
