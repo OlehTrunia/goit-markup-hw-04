@@ -102,6 +102,7 @@ gap: 50px;
 .link:hover,
 .link:focus{
 color: var(--accent-color);
+outline: none;
 }
 a.link.current{
 color: var(--accent-color);
@@ -211,6 +212,7 @@ line-height: 16px;
 letter-spacing: 0.03em;
 text-transform: uppercase;
 color: var(--primary-text-color);
+margin-bottom: 10px;
 }
 .scills-item{
 justify-content: center;
@@ -219,7 +221,6 @@ font-size: 14px;
 line-height: 1.71; 
 letter-spacing: 0.03em; 
 color: var(--referent-text-color);
-margin-top: 10px;
 }
 /*-----------------------WORK---------------------------*/
 .work-section{
@@ -341,15 +342,30 @@ min-height: 90px;width: 170px;
 .clients-link:hover, .clients-link:focus{
 fill: var(--accent-color);  
 border-color: var(--accent-color);
-cursor: pointer;
 }   
-/* .clients-link:focus{
-fill: var(--accent-color);  
-} */
 /*----------------------FOOTER------------------------------*/
 .footer .container{
 display: flex;
 align-items: baseline;
+}
+.footer{
+display: flex;
+padding: 60px 0;
+background-color: var(--hero-background-color);
+}
+.adress{
+font-style: normal;
+margin-top: 20px;
+}
+.footer-link{
+font-size: 14px;
+line-height: 1.71;
+letter-spacing: 0.03em;
+color: var(--title-text-color);
+}
+.footer-list .footer-item:not(:first-child):not(:first-child){
+opacity: 60%;
+margin-top: 9px;
 }
 .socials-wisit-it{
 margin-left: 70px;
@@ -361,7 +377,6 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.03em;
 text-transform: uppercase;
-
 margin-bottom: 20px;
 }
 .socials-list{
@@ -386,25 +401,6 @@ border-radius: 50%;
 .socials-link:focus{
 background-color: var(--accent-color);
 border-radius: 50%;
-}
-.footer{
-display: flex;
-padding: 60px 0;
-background-color: var(--hero-background-color);
-}
-.adress{
-font-style: normal;
-}
-.footer-list .footer-link{
-margin-top: 20px;   
-font-size: 14px;
-line-height: 1.71;
-letter-spacing: 0.03em;
-color: var(--title-text-color);
-}
-.footer-list .footer-link:not(:first-child){
-opacity: 60%;
-margin-top: 9px;
 }
 /*----------------------------------PORTFOLIO--------------------*/
 .header{
@@ -432,6 +428,7 @@ gap: 30px;
 width: 370px;
 }
 .superhero-link:hover, .superhero-link:focus{
+display: block;
 border: 1px solid #EEEEEE;
 box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.12), 
 0px 4px 4px rgba(0, 0, 0, 0.06), 
@@ -469,7 +466,6 @@ letter-spacing: 0.03em;
 color: var(--primary-text-color);
 background-color: var(--scills-text-color);
 border-radius: 4px;
-border-style: none; 
 padding: 6px 22px;
 }
 .navigation-btn:hover,
@@ -477,7 +473,7 @@ padding: 6px 22px;
 background-color: var(--accent-color);
 color: var(--title-text-color);
 border-radius: 4px;
-border-style: none; 
+outline: none; 
 box-shadow: 0px 3px 1px rgba(0, 0, 0, 0.1), 0px 1px 2px rgba(0, 0, 0, 0.08), 0px 2px 2px rgba(0, 0, 0, 0.12);
 }
 
