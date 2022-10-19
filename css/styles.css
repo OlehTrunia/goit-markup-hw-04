@@ -71,9 +71,9 @@ padding: 0 15px;
 }
 /*-------------------------header-------------------*/
 .header .container{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+display: flex;
+align-items: center;
+justify-content: center;
 }
 .header .logo-studio{
 color: var(--studio-color);
@@ -87,10 +87,9 @@ font-size: 14px;
 line-height: 1.14;
 letter-spacing: 0.02em;
 color: var(--primary-text-color);    
-
 }
-.header-item.link a.link{
- padding: 32px 0;
+.header a.link{
+padding: 32px 0;
 display: inline-block;   
 }
 nav{
@@ -127,11 +126,6 @@ color: var(--referent-text-color);
 }  
 .referents-item.link a.link{
 padding: 32px 0;
-display: block;
-
-
-}
-.header a.link{
 display: flex;
 align-items: center;
 justify-content: center;
@@ -334,23 +328,24 @@ margin-bottom: 50px;
 display: flex; 
 gap: 30px;
 }
-.clients-item{
+.clients-link{
 display: flex;
 justify-content: center;
-align-items: center;
+align-items: center;  
+
 fill: var(--svg-color);
 border: 1px solid var(--svg-color);
-border-radius: 4px;
-width: 170px;
-height: 92px;
+border-radius: 4px;  
+min-height: 90px;width: 170px;
 }
-.clients-link:hover{
+.clients-link:hover, .clients-link:focus{
 fill: var(--accent-color);  
+border-color: var(--accent-color);
 cursor: pointer;
 }   
-.clients-link:focus{
-    fill: var(--accent-color);  
-}
+/* .clients-link:focus{
+fill: var(--accent-color);  
+} */
 /*----------------------FOOTER------------------------------*/
 .footer .container{
 display: flex;
