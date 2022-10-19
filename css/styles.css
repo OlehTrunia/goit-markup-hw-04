@@ -38,7 +38,7 @@ display: block;
 max-width: 100%;
 height: auto;
 }
-adress{
+address{
 font-style: normal;
 }
 button{
@@ -108,11 +108,11 @@ a.link.current{
 color: var(--accent-color);
 }
 .referents-icon{
-    fill: currentColor;
-    margin-right: 10px;
+fill: currentColor;
+margin-right: 10px;
 }
 .referents-icon:hover{
-    fill: var(--accent-color);
+fill: var(--accent-color);
 }
 .referents-list{
 display: flex;
@@ -172,8 +172,6 @@ line-height: 1.88;
 letter-spacing: 0.06em;
 min-width: 216px;
 margin: 0 auto;
-cursor: pointer;
-border: none;
 padding: 10px 32px;
 }
 .visually-hidden{
@@ -230,7 +228,6 @@ padding-bottom: 94px;
 display: block;
 width: 1200px;
 padding-top: 0;
-
 }
 .work-list{
 display: flex;
